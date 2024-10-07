@@ -81,4 +81,3 @@ def length_of_longest_substring_n(s):
                 break
             max_length = max(max_length, j - i + 1)
     return max_length
-
